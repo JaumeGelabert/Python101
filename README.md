@@ -1,2 +1,4 @@
 # Python101
-First steps in Python. Back to basics.
+<b>Repositorio de proyectos en Python. </b>
+
+Empezaremos a aplicar todos los conceptos estudiados a casos prácticos para consolidar conocimiento. 
