@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %} LOGIN {% endblock %}
+
+{% block content %}
+    <!-- Contenido que se mostrará en HOME.HTML dentro de la base BASE.HTML -->
+    <p>CONTENT DE LOGIN</p>
+    <p>Bienvenido {{ user }}.</p>
+
+    {% if user == "Jaume" %}
+    Es verdad, el ususario eres tu.
+    {% else %} 
+    Corregir el nombre de la variable user dentro de auth.py.
+    Para mostrar el mensaje correcto, el valor de la variable debe ser "<b>Jaume</b>".
+    {% endif %}
+
+{% endblock %}
